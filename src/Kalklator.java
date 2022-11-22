@@ -7,8 +7,10 @@ public class Kalklator {
         int number1= scanner.nextInt();
         System.out.println("Podaj drugą cyfrę");
         int number2=scanner.nextInt();
-        System.out.println("Podaj trzecią cyfrę");
-        int number3=scanner.nextInt();
-        System.out.println("Suma "+(number1+number2+number3));
+        if(number1>number2&&number1<5) {
+            System.out.println(number1+" Jest mniejsza od 5");
+        }else {
+            System.out.println("Nie wiem co to za wynik jest");
+        }
     }
 }
