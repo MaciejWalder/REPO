@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Kalklator {
+public class Kalkulator {
     public static void main(String[] args) {
         System.out.println("Podaj pierwszą cyfrę");
         Scanner scanner=new Scanner(System.in);
@@ -14,3 +14,4 @@ public class Kalklator {
         }
     }
 }
+
